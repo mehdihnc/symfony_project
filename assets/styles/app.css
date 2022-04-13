@@ -1,3 +1,50 @@
-body {
-    background-color: lightgray;
-}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  a {
+    text-decoration: none;
+  }
+  ol,
+  ul {
+    list-style: none;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-color: #1c1c1c;
+    background-image: url(../website/img/traintrain.jpg);
+    background-size: cover;
+  }
+  .header {
+    padding: 0 2rem;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 5px 19px 5px #1c1c1c;
+    position: relative;
+  }
+  .link > a {
+    padding-right: 2rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+  }
+  .link > a:hover {
+    color: red;
+    transition: 0.3s ease-in-out;
+  }
+  .logo {
+    width: 60px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    color: #fff;
+  }
+  
