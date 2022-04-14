@@ -1,0 +1,22 @@
+
+.main {
+    height: 1000px;
+   
+}
+
+.first--element {
+    margin-top: 50px;
+}
+
+
+body {
+    background-image: url(../img/traintraintrain.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+    font-size: 80px;
+}
